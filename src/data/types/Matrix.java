@@ -3,27 +3,27 @@ package data.types;
 public class Matrix {
     public static void main(String[] args) {
         int rows = 2, columns = 3;
-        double[][] a = new double[rows][columns];
+        double[][] numbers = new double[rows][columns];
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                a[i][j] = Math.random();
+                numbers[i][j] = Math.random();
             }
         }
 
         System.out.println("Normal for");
         for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < a[i].length; j++) {
-                System.out.print(a[i][j] + "   ");
+            for (int j = 0; j < numbers[i].length; j++) {
+                System.out.print(numbers[i][j] + "   ");
             }
             System.out.print("\n");
 
         }
 
         System.out.println("Foreach");
-        for (double[] d : a) {
-            for (double dd : d) {
-                System.out.print(dd + "   ");
+        for (double[] array : numbers) {
+            for (double number : array) {
+                System.out.print(number + "   ");
             }
             System.out.print("\n");
         }
