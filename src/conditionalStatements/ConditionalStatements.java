@@ -1,4 +1,4 @@
-package src.conditionalStatements;
+package conditionalStatements;
 
 public class ConditionalStatements {
     private int x;
