@@ -143,7 +143,7 @@ class DequeExample {
         System.out.println("print deque: " + deque);
     }
 
-    private static void useDequeLikeStack(){
+    private static void useDequeLikeStack() {
         System.out.println("\nUse deque like a stack");
         Deque<Integer> deque = new ArrayDeque<>();
         deque.push(5);
@@ -158,12 +158,12 @@ class DequeExample {
     }
 }
 
-class MapExamples{
-    public static void main(String[] args){
+class MapExamples {
+    public static void main(String[] args) {
         Map<Integer, String> map = new HashMap<>();
-        map.put(3,"Third");
-        map.put(1,"First");
-        map.put(2,"Second");
+        map.put(3, "Third");
+        map.put(1, "First");
+        map.put(2, "Second");
         System.out.println("map.get(2): " + map.get(2));
         System.out.println("map.size(): " + map.size());
         System.out.println("map.remove(2): " + map.remove(2));

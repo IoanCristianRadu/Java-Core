@@ -17,7 +17,6 @@ public class Matrix {
                 System.out.print(numbers[i][j] + "   ");
             }
             System.out.print("\n");
-
         }
 
         System.out.println("Foreach");

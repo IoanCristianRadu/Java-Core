@@ -3,8 +3,8 @@ package basic.exceptions.bankingapp;
 public class MyUser {
     private String name;
 
-    public MyUser(String name){
-        this.name=name;
+    public MyUser(String name) {
+        this.name = name;
     }
 
     public String getName() {
@@ -15,11 +15,11 @@ public class MyUser {
         this.name = name;
     }
 
-    public void deposit(double ammount){
-        MyBank.deposit(this , ammount);
+    public void deposit(double ammount) {
+        MyBank.deposit(this, ammount);
     }
 
-    public void withdraw(double ammount){
+    public void withdraw(double ammount) {
         MyBank.withdraw(this, ammount);
     }
 }

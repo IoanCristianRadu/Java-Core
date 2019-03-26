@@ -1,9 +1,9 @@
 package basic.inner.classes;
 
 public class Anonymous {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //AnonymousInner
-        AnonymousInner inner = new AnonymousInner(){
+        AnonymousInner inner = new AnonymousInner() {
 
             @Override
             public void myMethod() {

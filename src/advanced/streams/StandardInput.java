@@ -10,18 +10,18 @@ public class StandardInput {
         InputStreamReader inputStreamReader = null;
 
         inputStreamReader = new InputStreamReader(System.in);
-        System.out.println("Enter characters, 'q' to quit." );
+        System.out.println("Enter characters, 'q' to quit.");
         char c;
 
-        try{
-            do{
+        try {
+            do {
                 c = (char) inputStreamReader.read();
                 System.out.print(c);
-            } while( c != 'q');
+            } while (c != 'q');
         } catch (IOException e) {
             e.printStackTrace();
-        } finally{
-            if(inputStreamReader != null){
+        } finally {
+            if (inputStreamReader != null) {
                 inputStreamReader.close();
             }
         }

@@ -37,7 +37,7 @@ public class TLightTest {
             System.out.printf("%s: %d seconds, next is %s\n", light,
                     light.getSeconds(), light.next());
         }
-        
+
         System.out.println(TLight.RED.next());
     }
 }

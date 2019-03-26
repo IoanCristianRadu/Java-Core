@@ -51,11 +51,11 @@ public class Operators {
 
         //Logical basic.operators
         System.out.println("\nLogical basic.operators");
-        boolean t=true,f=false;
+        boolean t = true, f = false;
 
-        System.out.println(t&&f);
-        System.out.println(t||f);
-        System.out.println(!(t&&f));
+        System.out.println(t && f);
+        System.out.println(t || f);
+        System.out.println(!(t && f));
 
         // Assignment basic.operators
         // = , += , >>=, etc
@@ -65,11 +65,11 @@ public class Operators {
         // basic.variable x = (expression) ? value if true : value if false
         System.out.println("\n Miscellaneous basic.operators:\n:?");
         a = 10;
-        b = (a == 1) ? 20: 30;
-        System.out.println( "Value of b is : " +  b );
+        b = (a == 1) ? 20 : 30;
+        System.out.println("Value of b is : " + b);
 
-        b = (a == 10) ? 20: 30;
-        System.out.println( "Value of b is : " + b );
+        b = (a == 10) ? 20 : 30;
+        System.out.println("Value of b is : " + b);
 
 
         // instanceof
@@ -79,7 +79,7 @@ public class Operators {
 
         // following will return true since name is type of String
         boolean result = name instanceof String;
-        System.out.println( result );
+        System.out.println(result);
 
     }
 }

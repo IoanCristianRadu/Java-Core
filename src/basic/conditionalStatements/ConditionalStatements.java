@@ -37,20 +37,20 @@ public class ConditionalStatements {
         }
     }
 
-    public void nestedIf(){
-        if(x<30){
+    public void nestedIf() {
+        if (x < 30) {
             System.out.println("x<30");
-            if(x<25){
+            if (x < 25) {
                 System.out.println("x<25");
             }
         }
     }
 
-    public void switchStatement(){
+    public void switchStatement() {
         char grade = 'F';
 
-        switch(grade){
-            case 'A' :
+        switch (grade) {
+            case 'A':
                 System.out.println("Excellent");
                 break;
             case 'B':
@@ -67,19 +67,19 @@ public class ConditionalStatements {
         }
     }
 
-    public void replaceIfElse(){
+    public void replaceIfElse() {
         int b;
 
-        if(x==24){
+        if (x == 24) {
             b = 30;
-        } else{
+        } else {
             b = 40;
         }
 
         b = (x == 24) ? 30 : 40;
     }
 
-    public void run(){
+    public void run() {
         ifStatement();
         ifElseStatement();
         nestedIf();

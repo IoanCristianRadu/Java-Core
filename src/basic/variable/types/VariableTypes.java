@@ -24,6 +24,7 @@ public class VariableTypes {
         VariableTypes variableTypes = new VariableTypes();
         variableTypes.pupAge();
     }
+
     public void pupAge() {
         System.out.println("Puppy age is: 7");
     }

@@ -22,21 +22,21 @@ public class CollectionAlgorithms {
 }
 
 class Rotator {
-    public void rotate(List list){
-        Collections.rotate(list,1);
+    public void rotate(List list) {
+        Collections.rotate(list, 1);
         System.out.println(list);
     }
 }
 
 class Shuffler {
-    public void shuffle(List list){
+    public void shuffle(List list) {
         Collections.shuffle(list);
         System.out.println(list);
     }
 }
 
-class Sorter{
-    public void sort(List<String> list){
+class Sorter {
+    public void sort(List<String> list) {
         //Collections.sort(list);
         list.sort(String.CASE_INSENSITIVE_ORDER);
         System.out.println(list);

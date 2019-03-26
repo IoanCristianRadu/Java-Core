@@ -1,7 +1,7 @@
 package basic.inner.classes;
 
 public class ClassInsideMethods {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         OuterDemo2 outerDemo = new OuterDemo2();
 
         //Class inside a method of a class.
@@ -22,6 +22,4 @@ class OuterDemo2 {
         ClassInsideMethod classInsideMethod = new ClassInsideMethod();
         classInsideMethod.print();
     }
-
-
 }

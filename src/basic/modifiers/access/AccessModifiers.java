@@ -16,7 +16,7 @@ public class AccessModifiers {
 
 }
 
-interface myInterface{
+interface myInterface {
     //The fields in an interface are implicitly public static final
     public static final String George = "George";
 
@@ -25,11 +25,10 @@ interface myInterface{
 }
 
 
-
 // Here, if we define openSpeaker() method as private, then it would not be accessible from any other class other than AudioPlayer.
 // If we define it as public, then it would become accessible to all the outside world.
 // But our intention is to expose this method to its subclass only, that’s why we have used protected modifier.
-class Speaker{
+class Speaker {
 
 }
 

@@ -1,18 +1,18 @@
 package basic.modifiers.nonaccess;
 
 public class Abstract {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         SubClass subClass = new SubClass();
         subClass.m();
     }
 }
 
 // An abstract class that has no abstract basic.methods is legal.
-abstract class MyAbstract{
+abstract class MyAbstract {
     public String myString;
 }
 
-abstract class SuperClass{
+abstract class SuperClass {
     protected abstract void m();
 }
 

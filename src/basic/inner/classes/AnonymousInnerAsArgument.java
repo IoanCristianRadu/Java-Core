@@ -1,18 +1,18 @@
 package basic.inner.classes;
 
-interface Message{
+interface Message {
     String greet();
 }
 
-class Messenger{
-    public void displayMessage(Message m){
+class Messenger {
+    public void displayMessage(Message m) {
         System.out.println(m.greet() + ", This is an example of anonymous basic.inner class as an argument");
     }
 }
 
 public class AnonymousInnerAsArgument {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Messenger messenger = new Messenger();
 
         messenger.displayMessage(new Message() {

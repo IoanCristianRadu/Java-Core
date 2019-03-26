@@ -7,13 +7,13 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class MyDate {
-    public static void main(String[] args){
-        Date date = new Date(92,6,25);
+    public static void main(String[] args) {
+        Date date = new Date(92, 6, 25);
 
         Calendar calendar1 = Calendar.getInstance();
         Calendar calendar2 = Calendar.getInstance();
-        calendar1.set(98,3,18, 16, 23 , 22);
-        calendar2.set (2017,1,23);
+        calendar1.set(98, 3, 18, 16, 23, 22);
+        calendar2.set(2017, 1, 23);
 
         System.out.println(date.toString());
         System.out.println(calendar1.getTime());
@@ -31,24 +31,23 @@ public class MyDate {
         }
 
 
-        try{
-            System.out.println(new Date( ) + "\n");
-            Thread.sleep(5*60*10);
-            System.out.println(new Date( ) + "\n");
+        try {
+            System.out.println(new Date() + "\n");
+            Thread.sleep(5 * 60 * 10);
+            System.out.println(new Date() + "\n");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
 
-
         try {
-            long start = System.currentTimeMillis( );
-            System.out.println(new Date( ) + "\n");
+            long start = System.currentTimeMillis();
+            System.out.println(new Date() + "\n");
 
-            Thread.sleep(5*60*10);
-            System.out.println(new Date( ) + "\n");
+            Thread.sleep(5 * 60 * 10);
+            System.out.println(new Date() + "\n");
 
-            long end = System.currentTimeMillis( );
+            long end = System.currentTimeMillis();
             long diff = end - start;
             System.out.println("Difference is : " + diff);
         } catch (Exception e) {
@@ -57,7 +56,7 @@ public class MyDate {
 
 
         GregorianCalendar gregorianCalendar = new GregorianCalendar();
-        gregorianCalendar.set(1997,6,25,15,22,33);
+        gregorianCalendar.set(1997, 6, 25, 15, 22, 33);
         System.out.println(gregorianCalendar.getTime());
     }
 }
@@ -87,9 +86,9 @@ class GregorianCalendarDemo {
         System.out.println(gcalendar.get(Calendar.SECOND));
 
         // Test if the current year is a leap year
-        if(gcalendar.isLeapYear(year)) {
+        if (gcalendar.isLeapYear(year)) {
             System.out.println("The current year is a leap year");
-        }else {
+        } else {
             System.out.println("The current year is not a leap year");
         }
     }

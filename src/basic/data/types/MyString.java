@@ -1,10 +1,10 @@
 package basic.data.types;
 
 public class MyString {
-    public static void main(String[] args){
-        char[] helloArray = { 'h', 'e', 'l', 'l', 'o', '.' };
+    public static void main(String[] args) {
+        char[] helloArray = {'h', 'e', 'l', 'l', 'o', '.'};
         String helloString = new String(helloArray);
-        System.out.println( helloString );
+        System.out.println(helloString);
 
         // Unlike Strings, objects of type StringBuffer and String builder can be modified over and over again 
         // without leaving behind a lot of new unused objects.

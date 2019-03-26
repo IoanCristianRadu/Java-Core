@@ -38,7 +38,7 @@ class ByteStream2 {
             byte[] byteVector = {11, 21, 3, 40, 5};
             OutputStream outputStream = new FileOutputStream("E:\\Programare\\IntelliJ\\JavaTutorial\\src\\advanced.streams\\test.txt");
 
-            for(int i = 0 ; i<byteVector.length;i++){
+            for (int i = 0; i < byteVector.length; i++) {
                 outputStream.write(byteVector[i]);
             }
             outputStream.write(byteVector);
@@ -47,7 +47,7 @@ class ByteStream2 {
             InputStream inputStream = new FileInputStream("E:\\Programare\\IntelliJ\\JavaTutorial\\src\\advanced.streams\\test.txt");
             int size = inputStream.available();
 
-            for(int i=0;i<size;i++){
+            for (int i = 0; i < size; i++) {
                 System.out.print(inputStream.read() + " ");
             }
             inputStream.close();

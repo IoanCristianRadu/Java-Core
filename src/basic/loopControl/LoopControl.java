@@ -27,16 +27,16 @@ public class LoopControl {
 
 
         //As of Java 5 -> Enhanced for loop
-        int [] numbers = {10, 20, 30, 40, 50};
+        int[] numbers = {10, 20, 30, 40, 50};
 
-        for(int numba : numbers ) {
-            System.out.print( numba );
+        for (int numba : numbers) {
+            System.out.print(numba);
             System.out.print(",");
         }
         System.out.print("\n");
-        String [] names = {"Jamie" , "Leo" , "Cabral" , "Makaron" , "Charlie"};
+        String[] names = {"Jamie", "Leo", "Cabral", "Makaron", "Charlie"};
 
-        for(String name : names){
+        for (String name : names) {
             System.out.print(name + ", ");
         }
 

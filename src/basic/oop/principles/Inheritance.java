@@ -4,18 +4,18 @@ public class Inheritance {
     // Eliminate redundant code
 }
 
-interface IA{
+interface IA {
 
 }
 
-interface IB{
+interface IB {
 
 }
 
-class C{
+class C {
 
 }
 
-class D extends C implements IA,IB{
+class D extends C implements IA, IB {
 
 }

@@ -23,7 +23,7 @@ public class CharacterStream {
                 System.out.println(c);
                 out.write(c);
             }
-        }finally {
+        } finally {
             if (in != null) {
                 in.close();
             }

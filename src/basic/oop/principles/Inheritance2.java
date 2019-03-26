@@ -7,8 +7,8 @@ public class Inheritance2 {
     }
 }
 
-class A{
-    protected static void eat(){
+class A {
+    protected static void eat() {
         System.out.println("A eats");
     }
 }

@@ -6,11 +6,11 @@ import java.rmi.RemoteException;
 public class Exceptions {
 
     public void deposit() throws GeorgeException, RemoteException {
-        try{
+        try {
             if (Math.random() > 0.5) {
                 throw new GeorgeException(25);
             } else throw new RemoteException();
-        } catch (GeorgeException georgeException){
+        } catch (GeorgeException georgeException) {
             System.out.println(georgeException.getAmount());
         }
 

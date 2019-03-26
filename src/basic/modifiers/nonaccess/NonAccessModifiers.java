@@ -17,7 +17,7 @@ public class NonAccessModifiers {
 
     // Reports basic.methods declared final and static. When a static method is overridden in a subclass it can still be accessed via the super class, making a final declaration not very necessary.
     // Declaring a static method final does prevent subclasses from defining a static method with the same signature.
-    public synchronized static final void showDetails(){
+    public synchronized static final void showDetails() {
 
     }
 

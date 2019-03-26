@@ -6,7 +6,6 @@ public class Volatile {
 }
 
 
-
 // Usually, run() is called in one thread (the one you start using the Runnable), and stop() is called from another thread.
 // If in line 1, the cached value of active is used, the loop may not stop when you set active to false in line 2.
 // That's when you want to use volatile.

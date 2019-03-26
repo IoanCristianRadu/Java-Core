@@ -12,5 +12,4 @@ public class StaticNestedClass {
         StaticNestedClass.nestedClass nestedClass = new StaticNestedClass.nestedClass();
         nestedClass.myMethod();
     }
-
 }
